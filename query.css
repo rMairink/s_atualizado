@@ -1,0 +1,48 @@
+@media screen and (max-width: 900px){
+    .main-header{
+        width: 100%;
+        height: 8rem;
+    }
+
+    .main-header #logo-header{
+        width: 15rem;
+        height: 6rem;
+    }
+
+    .main-header #pesquisar-header{
+        width: 15rem;
+    }
+
+    .secao-produtos{
+        width: 100%;
+    }
+
+    .lista-produtos{
+        width: 95%;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .main-header {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .main-header #logo-header{
+        width: 20rem;
+        height: 8rem;
+    }
+
+    .main-header #pesquisar-header{
+        display: none;
+    }
+
+    .main-header #minhaConta-header{
+        display: none;
+    }
+
+    .main-header #carrinho-header{
+        display: none;
+    }
+}
